@@ -32,7 +32,7 @@ export const Uppgift3 = () => {
 	useEffect(() => {
 		getCharacterNameFromStarwarsAPI()
 	},[currentCount])
-	console.log(currentCharacter)
+
 	return (
 		
 		<div>
